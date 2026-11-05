@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: "Pieteikties procedūrai"
-    link: "/contact"
+    link: "/contact/#booking"
   benefits:
     - icon: "zap-off"
       label: "Sāpju mazināšana"
@@ -46,7 +46,7 @@ features:
     button:
       enable: true
       label: "Pieteikties lāzera procedūrai"
-      link: "/contact"
+      link: "/contact/#booking"
 
 
 # Testimonials

@@ -45,7 +45,7 @@ preloader = "" # use jpg, png, svg or gif format.
 [navigation_button]
 enable = true
 label = "pieteikties lāzerprocedūrai"
-link = "contact"
+link = "contact/#booking"
 
 # search
 # search module: https://github.com/gethugothemes/hugo-modules/tree/master/search

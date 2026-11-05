@@ -99,7 +99,7 @@ Ar lāzerterapiju var iedarboties uz audiem caur 4 dažādiem viļņu garumiem d
 
 <hr>
 
-{{< button label="Pieteikties procedūrai" link="/contact" style="solid" >}}
+{{< button label="Pieteikties procedūrai" link="/contact/#booking" style="solid" >}}
 
 
 <hr>

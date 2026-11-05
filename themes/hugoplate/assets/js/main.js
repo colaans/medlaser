@@ -2,6 +2,14 @@
 (function () {
   "use strict";
 
+  // Close the mobile menu before following a link, including on-page anchors.
+  const navToggle = document.getElementById("nav-toggle");
+  document.querySelectorAll("#nav-menu a").forEach((link) => {
+    link.addEventListener("click", () => {
+      if (navToggle) navToggle.checked = false;
+    });
+  });
+
   // Dropdown Menu Toggler For Mobile
   // ----------------------------------------
   const dropdownMenuToggler = document.querySelectorAll(

@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: "Pieteikties procedūrai"
-    link: "/contact"
+    link: "/contact/#booking"
   # Benefits strip under the button. Icons: zap-off, thermometer-snowflake, refresh-cw
   benefits:
     - icon: "zap-off"
@@ -47,7 +47,7 @@ features:
     button:
       enable: true
       label: "Pieteikties lāzera procedūrai"
-      link: "/contact"
+      link: "/contact/#booking"
 
 
 # Testimonials

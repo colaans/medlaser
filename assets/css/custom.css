@@ -1,5 +1,10 @@
 /* Add your own custom styles here */
 
+/* Keep the booking calendar below the sticky navigation when linked directly. */
+#booking {
+  scroll-margin-top: 8rem;
+}
+
 /* Benefits strip under the homepage banner title.
    Based on the "laser benefits strip (4e)" design handoff, scaled up ~15%. */
 .benefits {
