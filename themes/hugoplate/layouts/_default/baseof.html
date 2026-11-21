@@ -7,6 +7,8 @@
   lang="{{ site.LanguageCode | default `en-US` }}"
   itemtype="http://schema.org/WebPage">
   <head>
+    {{ partialCached "gtm.html" . }}
+
     <!-- head (don't cache it) -->
     {{ partial "essentials/head.html" . }}
 
@@ -20,7 +22,6 @@
     <!-- cache partial only in production -->
     {{ if hugo.IsProduction }}
       {{ partialCached "preloader.html" . }}
-      {{ partialCached "gtm-noscript.html" . }}
     {{ else }}
       {{ partial "preloader.html" . }}
 
